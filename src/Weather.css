@@ -1,0 +1,111 @@
+.weather-page {
+    max-width: 600px;
+    background-color: rgba(229, 239, 239, 0.646);
+    margin: 50px auto;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 10px 12px rgba(192, 178, 202, 0.4);
+  }
+  
+  .search-input {
+      background-color:#d9d5e3;
+      border: none;
+      width: 80%;
+      border-color: #d9d5e3;
+      padding: 10px 10px;
+      font-size: 15px;
+      border-radius: 5px;
+  }
+  
+  .search-button{
+      background: #8773ba ;
+      color: white;
+      padding: 10px 15px;
+      font-size: 15px;
+      border-radius: 5px;
+      margin-left: 5px;
+      border: none;
+  }
+  
+  main {
+      padding: 17px 0 17px 0;
+  }
+  header {
+      border-bottom: 1px solid #d9d5e3;
+      padding: 20px;
+  }
+  a {
+      color: #8773ba;
+  }
+  .weather-data {
+      display: flex;
+      justify-content: space-between;
+  }
+  .weather-city {
+      margin: 0;
+      font-size: 25px;
+      line-height: 30px;
+  }
+  .weather-details {
+      font-size: 14px;
+      font-weight: 300px;
+      line-height: 20px;
+      color: rgba(17, 16, 23, 0.8);
+  }
+  .weather-details strong {
+      color: blueviolet;
+  }
+  
+  .current-temperature-container {
+      display: flex;
+  }
+  .icon {
+      width: 88px;
+      height: 88px;
+  }
+  .temperature-value {
+      font-size: 70px;
+      font-weight: 400px;
+      line-height: 90px;
+  }
+  .temperature-unit {
+      font-size: 30px;
+      margin-top: 15px;
+  }
+  .weather-forecast {
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-around;
+  }
+  .weather-forecast-day{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .weather-date {
+      text-align: center;
+      color: rgba(39, 33, 66, 0.8);
+      font-size: 16px;
+      line-height: 16px;
+      margin-bottom: 2px;
+  }
+  
+  .forecast-icon {
+      width: 65px;
+      height: 65px;
+      display: block;
+      margin: 0 auto;
+  }
+  .forecast-temperatures {
+      text-align: center;
+      color: #f65282;
+      margin-top: 14px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+  }
+  .forecast-temp {
+      padding: 0 4px;
+  }
+  
+  
