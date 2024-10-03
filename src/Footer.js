@@ -18,7 +18,7 @@ export default function Footer() {
             github
           </a>
           and{" "}
-          <a href="https://main--my-weather-page.netlify.app/" target="_blank" rel="noreferrer">
+          <a href="https://weather-reactjs-application.netlify.app/" target="_blank" rel="noreferrer">
             hosted on Netlify
           </a>
         </p>
