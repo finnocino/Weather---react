@@ -7,18 +7,18 @@ export default function Footer() {
       <footer>
         <p>
           This project was coded by{" "}
-          <a href="https://github.com/finnocino" target="_blank">
+          <a href="https://github.com/finnocino" target="_blank" rel="noreferrer">
             Rita Bern
           </a>
           , is open-sourced on{" "}
           <a
             href="https://github.com/finnocino/weather-project"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             github
           </a>
           and{" "}
-          <a href="https://main--my-weather-page.netlify.app/" target="_blank">
+          <a href="https://main--my-weather-page.netlify.app/" target="_blank" rel="noreferrer">
             hosted on Netlify
           </a>
         </p>
